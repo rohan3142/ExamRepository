@@ -11,5 +11,7 @@ public class Sum{
         System.out.println("The Sum of the given numbers is "+sum);
         int largest=num1>(num2>num3?num2:num3)?num1:num2>num3?num2:num3;
         System.out.println("The largest of the given three numbers is "+largest);
+        int average=(num1+num2+num3)/3;
+        System.out.println(" The average of three numbers is "+ average);
     }
 }
